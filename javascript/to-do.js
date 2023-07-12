@@ -23,7 +23,7 @@ const createSomenthing = (submitEvent) => {
   const divDataLista = document.createElement("div");
   divDataLista.classList.add("divDL");
   const dataLista = document.createElement("h3");
-  oggettoLista.innerText = `${cosaDaFare["to-do"]}`;
+  oggettoLista.innerHTML = `<p onclick="fatto(event)">${cosaDaFare["to-do"]}</p>`;
   dataLista.innerText = `${cosaDaFare.date}`;
   elimina.innerHTML = `<button onclick = "eliminatePostIt(event)"></button>`;
   postIt.appendChild(divElimina);
@@ -41,7 +41,7 @@ const eliminatePostIt = (eliminateEvent) => {
   seleziona.remove();
 };
 
-const fatto = () => {
-  const scritteDaFare = document.getElementsByClassName("nonFatto");
-  scritteDaFare.classList.toggle("fatto");
+const fatto = (clickevent) => {
+  console.log(clickevent);
+  clickevent.target.classList.toggle("fatto");
 };
