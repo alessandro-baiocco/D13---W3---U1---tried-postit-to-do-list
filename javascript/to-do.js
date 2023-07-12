@@ -38,7 +38,7 @@ console.log(appendinoCose);
 
 const eliminatePostIt = (eliminateEvent) => {
   const seleziona = document.querySelector("main div");
-  seleziona.classList.add("elimina");
+  seleziona.remove();
 };
 
 const fatto = () => {
