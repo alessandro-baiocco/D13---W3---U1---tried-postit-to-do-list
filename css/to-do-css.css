@@ -1,0 +1,77 @@
+header {
+  background-color: aqua;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+/* main */
+main {
+  padding: 40px;
+  flex-direction: row;
+  display: flex;
+}
+
+main p {
+  display: block;
+}
+main div {
+  flex-direction: column;
+  vertical-align: top;
+  display: flex;
+  padding: 4px;
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  font-size: 30px;
+}
+
+.divOL {
+  margin-bottom: 80px;
+}
+
+.divE {
+  height: 30px;
+  display: flex;
+  margin: 0px;
+  padding: 0px 6px 8px 170px;
+}
+
+.divDL {
+  text-align: right;
+  padding-left: 120px;
+}
+
+main div div {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+}
+main div div button {
+  display: inline-block;
+  height: 20px;
+  width: 8px;
+  padding: 6px;
+  background-color: red;
+}
+main div h3 {
+  font-size: 16px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.sottotitolo {
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.elimina {
+  display: none;
+}
+
+.fatto {
+  text-decoration: line-through;
+}
