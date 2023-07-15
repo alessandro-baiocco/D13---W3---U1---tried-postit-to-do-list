@@ -4,17 +4,28 @@ header {
   font-size: 50px;
   padding-top: 20px;
 }
+/* nav */
+nav {
+  background-color: brown;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+}
+nav p {
+  display: inline;
+  background-color: aqua;
+}
 
 /* main */
 main {
   padding: 40px;
   flex-direction: row;
   display: flex;
+  flex-wrap: wrap;
+  background-image: url(bacheca-sfondo-texture-d4b377.jpg);
+  height: 60em;
 }
 
-main p {
-  display: block;
-}
 main div {
   flex-direction: column;
   vertical-align: top;
@@ -28,18 +39,21 @@ main div {
 }
 
 .divOL {
-  margin-bottom: 80px;
+  padding: 0px;
+  overflow-y: auto;
 }
 
 .divE {
   height: 30px;
   display: flex;
   margin: 0px;
-  padding: 0px 6px 8px 170px;
+  padding: 0px 15px 8px 170px;
+  background-color: orange;
 }
 
 .divDL {
   text-align: right;
+  /* margin-top: 80px; */
   padding-left: 120px;
 }
 
