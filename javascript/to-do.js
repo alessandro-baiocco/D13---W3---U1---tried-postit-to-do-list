@@ -34,7 +34,6 @@ const createSomenthing = (submitEvent) => {
   divDataLista.appendChild(dataLista);
   appendinoCose.appendChild(postIt);
 };
-console.log(appendinoCose);
 
 const eliminatePostIt = (eliminateEvent) => {
   const seleziona = document.querySelector("main div");
